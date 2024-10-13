@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="platform">
+      <UniqueIdentifier>{4A63C33C-3630-1E48-5F49-0CF04B7553D6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\opengl">
+      <UniqueIdentifier>{9E4DBFD0-0AD9-2C95-13EA-AF897FF48895}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\windows">
+      <UniqueIdentifier>{A44FC440-9048-E392-B97A-C817A5D2C29E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="puzzle">
+      <UniqueIdentifier>{AFF9AA15-9B9B-D5EB-8456-E93F70975C3C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="puzzle\events">
+      <UniqueIdentifier>{D31E9471-3FDF-0FA8-081A-592574995484}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="puzzle\imgui">
+      <UniqueIdentifier>{594E9DA6-45B1-2C4B-EE36-6501DA78F8CD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Puzzle.h" />
+    <ClInclude Include="src\platform\opengl\ImguiRenderer.h">
+      <Filter>platform\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\platform\opengl\imgui_impl_glfw.h">
+      <Filter>platform\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\platform\opengl\imgui_impl_opengl3_loader.h">
+      <Filter>platform\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\platform\windows\WindowsWindow.h">
+      <Filter>platform\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\puzzle\Application.h">
+      <Filter>puzzle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\puzzle\Core.h">
+      <Filter>puzzle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\puzzle\EntryPoint.h">
+      <Filter>puzzle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\puzzle\Layer.h">
+      <Filter>puzzle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\puzzle\LayerStack.h">
+      <Filter>puzzle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\puzzle\Log.h">
+      <Filter>puzzle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\puzzle\Window.h">
+      <Filter>puzzle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\puzzle\events\ApplicationEvent.h">
+      <Filter>puzzle\events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\puzzle\events\Event.h">
+      <Filter>puzzle\events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\puzzle\events\KeyEvent.h">
+      <Filter>puzzle\events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\puzzle\events\MouseEvent.h">
+      <Filter>puzzle\events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\puzzle\imgui\ImguiLayer.h">
+      <Filter>puzzle\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pzpch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\platform\opengl\ImguiRenderer.cpp">
+      <Filter>platform\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\platform\opengl\imgui_impl_glfw.cpp">
+      <Filter>platform\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\platform\windows\WindowsWindow.cpp">
+      <Filter>platform\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\puzzle\Application.cpp">
+      <Filter>puzzle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\puzzle\Layer.cpp">
+      <Filter>puzzle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\puzzle\LayerStack.cpp">
+      <Filter>puzzle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\puzzle\Log.cpp">
+      <Filter>puzzle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\puzzle\imgui\ImguiLayer.cpp">
+      <Filter>puzzle\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pzpch.cpp" />
+  </ItemGroup>
+</Project>
